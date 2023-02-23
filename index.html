@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="main_img">
+            <img src="OIP (1).jpeg" alt="">
+        </div>
+        <div id="main_time">
+            <p></p>
+        </div>
+        <div id="alarm_set">
+            <div id="alarm_set_main">
+                <div id="alarm_set_minutes" class="alarm_Set">
+                    <label for="time_minutes">Minutes after you want alarm</label>
+                    <input type="number" id="time_minutes" >
+                </div>
+                <div id="alarm_set_time" class="alarm_Set">
+                    <label for="time_time">Time on which you want alarm</label>
+                    <input type="time" id="time_time">
+                </div>
+            </div>
+            <div id="set_alarm_button_box">
+                <button id="set_alarm_button">Set Alarm</button>
+            </div>
+        </div>
+        <div id="show_alarms">
+            <button id="show_alarm_button">Show Alarms</button>
+        </div>
+    </div>
+    <audio controls id="audio">
+        <source src="Thunder-wind-and-rain-sound-effect.mp3" type="audio/mp3">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>

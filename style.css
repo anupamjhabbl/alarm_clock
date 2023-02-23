@@ -1,0 +1,118 @@
+#main{
+    width:45%;
+    margin:auto;
+    position:relative;
+    bottom:20px;
+    height:70vh;
+    margin-top:15vh;
+    font-size:30px;
+}
+
+#main_img>img{
+    height:23vh;
+    width:auto;
+    display:block;
+    margin:auto;
+}
+
+#main_img{
+    height:25vh;
+    /* border-bottom: 2px solid red;; */
+}
+
+#main_time{
+    font-size:1.1em;
+    font-weight:bolder;
+    text-align: center;
+}
+
+#alarm_set_main{
+    display:flex;
+    margin-bottom:20px;
+}
+
+.alarm_Set{
+    width:50%;
+}
+
+.alarm_Set>label{
+    font-size: 0.7em;
+    margin-left:12px;
+}
+
+.alarm_Set>input{
+    display:block;
+    width:90%;
+    margin:auto;
+    height: 35px;
+    border:2px solid rgb(0, 0, 0);
+    border-radius:6px;
+    font-size:0.8em;
+    font-family:cursive;
+    outline:0px;
+    padding-left:6px;
+
+}
+
+#time_time{
+    height:37px;
+}
+
+#set_alarm_button,#show_alarm_button{
+    width:50%;
+    display:block;
+    height:35px;
+    font-size: 0.8em;
+    border-radius:4px;
+    margin:auto;
+    margin-top:30px;
+    background-color: blue;
+    color:white;
+    border:0px;
+    outline:0px;
+}
+
+.alarm_element{
+    width:100%;
+    height:50px;
+    font-size:0.8em;
+    font-family: cursive;
+    margin:5px;
+}
+
+#show_set_alarm{
+    width:60%;
+    height:41px;
+    border:0px;
+    outline:0px;
+    border-radius:5px;
+    background-color: blue;
+    color:white;
+    display:block;
+    margin:5px;;
+    font-family:cursive;
+    font-size:0.9em;
+    margin-top:15px;
+}
+
+@media only screen and (max-width:1000px){
+    #main{
+        width:70%;
+    }
+    #alarm_set_main{
+        display:block;
+        width:100%;
+        margin:auto;
+    }
+    .alarm_Set{
+        width:90%;
+        margin:auto;
+    }
+}
+
+@media only screen and (max-width:600px){
+    #main{
+        width:100%;
+    }
+}
+
